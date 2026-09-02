@@ -1,4 +1,13 @@
+https://tailscale.com
+https://tailscale.com/download
+https://atomicmail.io
+https://github.com/
+-----------------------------------
+.github/workflows/windows-rdp.yml
 
+key : TAILSCALE_AUTHKEY
+
+-----------------------
 name: Windows Cloud RDP
 
 on:
@@ -44,8 +53,8 @@ jobs:
           Write-Host "==================================================" -ForegroundColor Green
           Write-Host "  >>> RDP SERVER IS READY! <<<" -ForegroundColor Cyan
           Write-Host "  Tailscale IP : $ts_ip" -ForegroundColor Yellow
-          Write-Host "  Username     : mohaxpp" -ForegroundColor Yellow
-          Write-Host "  Password     : 3982edj239e@!#@WQWSDQ" -ForegroundColor Yellow
+          Write-Host "  Username     : NvdAdmin" -ForegroundColor Yellow
+          Write-Host "  Password     : P@ssw0rd1qazXSW@#" -ForegroundColor Yellow
           Write-Host "  >> Open mstsc and connect to: $ts_ip" -ForegroundColor Magenta
           Write-Host "==================================================" -ForegroundColor Green
 
